@@ -1,55 +1,272 @@
-/*
-Error: Invalid CSS after "		filter": expected "{", was "}"
-        on line 151 of D:\xampp\htdocs\webQuilt\sass\style.scss
+.top_left_tri {
+  background-color: #C82647;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  transform: rotate(50deg);
+  top: -400px;
+  left: -100px; }
 
-146: 	left:$push;
-147: 	&:hover{
-148: 		top:800px;
-149: 		height:400px;
-150: 		filter
-151: 	}
-152: }
-153: 
-154: .palette_1{
-155: 	@include palette(#2094F8, 0vw);
-156: }
+.abos {
+  position: absolute; }
 
-Backtrace:
-D:\xampp\htdocs\webQuilt\sass\style.scss:151
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:234:in `mixin_directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:222:in `special_directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:197:in `directive'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		filter\": expected \"{\", was \"}\"\A         on line 151 of D:\xampp\htdocs\webQuilt\sass\style.scss\A \A 146: 	left:$push;\A 147: 	&:hover{\A 148: 		top:800px;\A 149: 		height:400px;\A 150: 		filter\A 151: 	}\A 152: }\A 153: \A 154: .palette_1{\A 155: 	@include palette(#2094F8, 0vw);\A 156: }"; }
+.top_left_tri2 {
+  background-color: #2094F8;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  transform: rotate(68deg);
+  top: -520px;
+  left: -200px; }
+
+.pt_sans_300 {
+  font: 300% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_200 {
+  font: 200% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_100 {
+  font: 100% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_50l {
+  font: 50% "Ubuntu", sans-serif;
+  font-weight: 50;
+  color: #282830; }
+
+.pt_sans_300l {
+  font: 300% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_200l {
+  font: 200% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_165l {
+  font: 165% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_100l {
+  font: 100% "Ubuntu", sans-serif;
+  font-weight: 100;
+  color: #282830; }
+
+.pt_sans_125l {
+  font: 125% "Ubuntu", sans-serif;
+  font-weight: 100;
+  color: #282830; }
+
+.pt_sans_50 {
+  font: 50% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.center-weak {
+  text-align: center; }
+
+.center-strong {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.divider_ {
+  margin-top: 100px;
+  width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid grey; }
+
+.palette_1 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #2094F8;
+  top: 900px;
+  left: 0vw; }
+  .palette_1:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_2 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #C82647;
+  top: 900px;
+  left: 5.25vw; }
+  .palette_2:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_3 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #27AE60;
+  top: 900px;
+  left: 10.5vw; }
+  .palette_3:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_4 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #785EDD;
+  top: 900px;
+  left: 15.75vw; }
+  .palette_4:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_5 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #22202B;
+  top: 900px;
+  left: 21vw; }
+  .palette_5:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_6 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #706F77;
+  top: 900px;
+  left: 26.25vw; }
+  .palette_6:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_7 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #FA4228;
+  top: 900px;
+  left: 31.5vw; }
+  .palette_7:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_8 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #FFE1AE;
+  top: 900px;
+  left: 36.75vw; }
+  .palette_8:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_9 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #804829;
+  top: 900px;
+  left: 42vw; }
+  .palette_9:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_10 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #5CD5E6;
+  top: 900px;
+  left: 47.25vw; }
+  .palette_10:hover {
+    top: 800px;
+    height: 400px; }
+
+.palette_11 {
+  position: absolute;
+  transition: top 0.5s, height 0.5s;
+  width: 5vw;
+  height: 300px;
+  background-color: #4DC9A5;
+  top: 900px;
+  left: 52.5vw; }
+  .palette_11:hover {
+    top: 800px;
+    height: 400px; }
+
+.curve_edges {
+  -webkit-border-radius: 275px;
+  -moz-border-radius: 275px;
+  -ms-border-radius: 275px;
+  border-radius: 275px; }
+
+.margin-bot-100 {
+  margin-bottom: 100px; }
+
+.hard-push-50 {
+  top: 50px; }
+
+.hard-push-50 {
+  top: 100px; }
+
+.hard-push-50 {
+  top: 150px; }
+
+.pushDown-50 {
+  padding-top: 50px; }
+
+.pushDown-100 {
+  padding-top: 100px; }
+
+.pushDown-150 {
+  padding-top: 150px; }
+
+.pushDown-200 {
+  padding-top: 200px; }
+
+.squeze_feather {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.squeze_gentle {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.squeze_firm {
+  max-width: 50%;
+  margin: 0 auto; }
+
+.squeze_tight {
+  max-width: 30%;
+  margin: 0 auto; }
+
+.wq-header {
+  background-color: #FFFFFF;
+  height: 1200px;
+  width: 100%;
+  position: absolute; }
+
+html {
+  height: 2000px;
+  background-color: #2094F8; }
+
+/*# sourceMappingURL=style.css.map */
