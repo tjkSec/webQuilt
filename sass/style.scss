@@ -136,6 +136,71 @@ $desktops: 1051px;
 	border-bottom: 1px solid grey;
 }
 
+@mixin palette($color, $push) {
+	position: absolute;
+	transition: top 0.5s, height 0.5s ;
+	width:5vw;
+	height:300px;
+	background-color:$color;
+	top:900px;
+	left:$push;
+	&:hover{
+		top:800px;
+		height:400px;
+		filter
+	}
+}
+
+.palette_1{
+	@include palette(#2094F8, 0vw);
+}
+
+.palette_2{
+	@include palette(#C82647, 5.25vw);
+}
+
+.palette_3{
+	@include palette(#27AE60, 10.5vw);
+}
+
+.palette_4{
+	@include palette(#785EDD, 15.75vw);
+}
+
+.palette_5{
+	@include palette(#22202B, 21vw);
+}
+
+.palette_6{
+	@include palette(#706F77, 26.25vw);
+}
+
+.palette_7{
+	@include palette(#FA4228, 31.5vw);
+}
+
+// from here
+.palette_8{
+	@include palette(#FFE1AE, 36.75vw);
+}
+
+.palette_9{
+	@include palette(#804829, 42vw);
+}
+
+.palette_10{
+	@include palette(#5CD5E6, 47.25vw);
+}
+
+.palette_11{
+	@include palette(#4DC9A5, 52.5vw);
+}
+
+
+
+
+
+
 .curve_edges{
 	@include ciruclar(275px)
 }
