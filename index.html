@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./sass/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/animations.js"></script>
 		<title>webQuilt | largest color library on the web</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="resources\webpage_logo.png">
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
-	<body>
-		<div class="page-header">
-			<h1 class="pt_sans">webQuilt</h1>
+	<body style="overflow-x:hidden;">
+		<div class="wq-header">
+			<!-- <h1 class="pt_sans_300 center-weak pushDown-200">webQuilt</h1> -->
+			<!-- add logo here one day -->
+			<div class="row">
+				<div class="top_left_tri hidden-xs hidden-sm"></div>
+				<div class="top_left_tri2 hidden-xs hidden-sm" id="overlapping_Tri"></div>
+				<img src="resources/logo.png" style="width:300px;height:150px;" class="center-strong hard-push-50 pad-bot-100">
+			<div class="divider_"></div>
+			<div class="hidden-md hidden-lg">
+				<div class="col-xs-12 col-sm-4">
+					<h5 class="pt_sans_125l center-weak squeze_feather pushDown-100"><i class="material-icons" style="font-size:390%;">donut_large</i><br><br>
+						The largest depository of colors for websites developers, graphic designers and the public.</h5>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h5 class="pt_sans_125l center-weak squeze_feather pushDown-100"><i class="material-icons" style="font-size:390%;">dashboard</i><br><br>
+						We organize our colors within catagories which can be found <a href='#'>here</a>. </h5>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h5 class="pt_sans_125l center-weak squeze_feather pushDown-100"><i class="material-icons" style="font-size:390%;">camera</i><br><br>
+						New colors are added regularly and community suggested colors are welcomed.</h5>
+				</div>
+			</div>
+			</div>
+			<div class="hidden-xs hidden-sm">
+				<div class="col-sm-4">
+					<h5 class="pt_sans_165l center-weak squeze_gentle pushDown-100"><i class="material-icons" style="font-size:390%;">donut_large</i><br><br>
+						The largest depository of colors for websites developers, graphic designers and the public.</h5>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h5 class="pt_sans_165l center-weak squeze_gentle pushDown-100"><i class="material-icons" style="font-size:390%;">dashboard</i><br><br>
+						We organize our colors within catagories which can be found <a href='#'>here</a>. </h5>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h5 class="pt_sans_165l center-weak squeze_gentle pushDown-100"><i class="material-icons" style="font-size:390%;">camera</i><br><br>
+						New colors are added regularly and community suggested colors are welcomed.</h5>
+				</div>
+			</div>
+			</div>
 		</div>
 	</body>
 </html>

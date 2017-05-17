@@ -1,5 +1,140 @@
-.pt_sans {
-  font: 300% "PT Sans", sans-serif;
-  color: #7CEECE; }
+.top_left_tri {
+  background-color: #C82647;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  transform: rotate(50deg);
+  top: -400px;
+  left: -100px; }
+
+.abos {
+  position: absolute; }
+
+.top_left_tri2 {
+  background-color: #2094F8;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  transform: rotate(68deg);
+  top: -520px;
+  left: -200px; }
+
+.pt_sans_300 {
+  font: 300% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_200 {
+  font: 200% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_100 {
+  font: 100% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.pt_sans_50l {
+  font: 50% "Ubuntu", sans-serif;
+  font-weight: 50;
+  color: #282830; }
+
+.pt_sans_300l {
+  font: 300% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_200l {
+  font: 200% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_165l {
+  font: 165% "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #282830; }
+
+.pt_sans_100l {
+  font: 100% "Ubuntu", sans-serif;
+  font-weight: 100;
+  color: #282830; }
+
+.pt_sans_125l {
+  font: 125% "Ubuntu", sans-serif;
+  font-weight: 100;
+  color: #282830; }
+
+.pt_sans_50 {
+  font: 50% "Ubuntu", sans-serif;
+  color: #282830; }
+
+.center-weak {
+  text-align: center; }
+
+.center-strong {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.divider_ {
+  margin-top: 100px;
+  width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid grey; }
+
+.curve_edges {
+  -webkit-border-radius: 275px;
+  -moz-border-radius: 275px;
+  -ms-border-radius: 275px;
+  border-radius: 275px; }
+
+.margin-bot-100 {
+  margin-bottom: 100px; }
+
+.hard-push-50 {
+  top: 50px; }
+
+.hard-push-50 {
+  top: 100px; }
+
+.hard-push-50 {
+  top: 150px; }
+
+.pushDown-50 {
+  padding-top: 50px; }
+
+.pushDown-100 {
+  padding-top: 100px; }
+
+.pushDown-150 {
+  padding-top: 150px; }
+
+.pushDown-200 {
+  padding-top: 200px; }
+
+.squeze_feather {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.squeze_gentle {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.squeze_firm {
+  max-width: 50%;
+  margin: 0 auto; }
+
+.squeze_tight {
+  max-width: 30%;
+  margin: 0 auto; }
+
+.wq-header {
+  background-color: #FFFFFF;
+  height: 1200px;
+  width: 100%;
+  position: absolute; }
+
+html {
+  height: 2000px;
+  background-color: #2094F8; }
 
 /*# sourceMappingURL=style.css.map */
