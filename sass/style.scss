@@ -164,7 +164,7 @@ $desktops: 1051px;
 @mixin cover($cover_color, $left, $top) {
 	background-color: $cover_color;
 	width:50vw;
-	height:2000px;
+	height:9000px;
 	position: absolute;
 	left:$left;
 	top:$top;
@@ -210,6 +210,7 @@ $desktops: 1051px;
 	}
 }
 
+
 @mixin palette_mb($color, $push) {
 	position: absolute;
 	transition: top 0.3s, height 0.3s ;
@@ -223,7 +224,7 @@ $desktops: 1051px;
 		height:300px;
 	}
 }
-
+// #21B6A8
 .palette_1{
 	@include palette(#FEF036, 0vw);
 }
@@ -233,42 +234,74 @@ $desktops: 1051px;
 }
 
 .palette_3{
-	@include palette(#2F648D, 10.5vw);
+	@include palette(#21B6A8, 10.5vw);
 }
 
 .palette_4{
-	@include palette(#917CB7, 15.75vw);
+	@include palette(#409C97, 15.75vw);
 }
 
 .palette_5{
-	@include palette(#F3AECE, 21vw);
+	@include palette(#2F648D, 21vw);
 }
 
 .palette_6{
-	@include palette(#EF5D61, 26.25vw);
+	@include palette(#54ACD2, 26.25vw);
 }
 
 .palette_7{
-	@include palette(#FD9B37, 31.5vw);
+	@include palette(#10D2E5, 31.5vw);
 }
 
-// from here
 .palette_8{
-	@include palette(#94775E, 36.75vw);
+	@include palette(#3964C3, 36.75vw);
 }
 
 .palette_9{
-	@include palette(#363636, 42vw);
+	@include palette(#917CB7, 42vw);
 }
 
 .palette_10{
-	@include palette(#6A6A6A, 47.25vw);
+	@include palette(#F3AECE, 47.25vw);
 }
 
 .palette_11{
-	@include palette(#CACDCC, 52.5vw);
+	@include palette(#EF5D61, 52.5vw);
 }
 
+.palette_12{
+	@include palette(#FFBF00, 57.75vw);
+}
+
+.palette_13{
+	@include palette(#FD9B37, 63vw);
+}
+
+.palette_14{
+	@include palette(#94775E, 68.25vw);
+}
+
+.palette_15{
+	@include palette(#363636, 73.5vw);
+}
+
+.palette_16{
+	@include palette(#6A6A6A, 78.75vw);
+}
+
+.palette_17{
+	@include palette(#E5D8C7, 84vw);
+}
+
+.palette_18{
+	@include palette(#CACDCC, 89.25vw);
+}
+
+.palette_19{
+	@include palette(#f2f2f2, 94.5vw);
+}
+
+// #121212
 
 
 
@@ -293,40 +326,71 @@ $desktops: 1051px;
 }
 
 .palette_3_mb{
-	@include palette_mb(#2F648D, 10.5vw);
+	@include palette_mb(#21B6A8, 10.5vw);
 }
 
 .palette_4_mb{
-	@include palette_mb(#917CB7, 15.75vw);
+	@include palette_mb(#409C97, 15.75vw);
 }
 
 .palette_5_mb{
-	@include palette_mb(#F3AECE, 21vw);
+	@include palette_mb(#2F648D, 21vw);
 }
 
 .palette_6_mb{
-	@include palette_mb(#EF5D61, 26.25vw);
+	@include palette_mb(#54ACD2, 26.25vw);
 }
 
 .palette_7_mb{
-	@include palette_mb(#FD9B37, 31.5vw);
+	@include palette_mb(#10D2E5, 31.5vw);
 }
 
-// from here
 .palette_8_mb{
-	@include palette_mb(#94775E, 36.75vw);
+	@include palette_mb(#3964C3, 36.75vw);
 }
 
 .palette_9_mb{
-	@include palette_mb(#363636, 42vw);
+	@include palette_mb(#917CB7, 42vw);
 }
 
 .palette_10_mb{
-	@include palette_mb(#6A6A6A, 47.25vw);
+	@include palette_mb(#F3AECE, 47.25vw);
 }
 
 .palette_11_mb{
-	@include palette_mb(#CACDCC, 52.5vw);
+	@include palette_mb(#EF5D61, 52.5vw);
+}
+
+.palette_12_mb{
+	@include palette_mb(#FFBF00, 57.75vw);
+}
+
+.palette_13_mb{
+	@include palette_mb(#FD9B37, 63vw);
+}
+
+.palette_14_mb{
+	@include palette_mb(#94775E, 68.25vw);
+}
+
+.palette_15_mb{
+	@include palette_mb(#363636, 73.5vw);
+}
+
+.palette_16_mb{
+	@include palette_mb(#6A6A6A, 78.75vw);
+}
+
+.palette_17_mb{
+	@include palette_mb(#E5D8C7, 84vw);
+}
+
+.palette_18_mb{
+	@include palette_mb(#CACDCC, 89.25vw);
+}
+
+.palette_19_mb{
+	@include palette_mb(#f2f2f2, 94.5vw);
 }
 
 
@@ -351,6 +415,22 @@ $desktops: 1051px;
 .hard-push-150{
 	@include hard_push_down(150px);
 }
+
+.hard-push-170{
+	@include hard_push_down(170px);
+}
+.hard-push-250{
+	@include hard_push_down(250px);
+}
+
+.hard-push-350{
+	@include hard_push_down(350px);
+}
+
+.hard-push-450{
+	@include hard_push_down(450px);
+}
+
 
 .hard-push-155{
 	@include hard_push_down(155px);
@@ -397,7 +477,7 @@ $desktops: 1051px;
 
 .wq-header{
 	background-color: #242831;
-	height:1200px;
+	height:1300px;
 	width: 100%;
 	@include tight();
 }
@@ -419,6 +499,6 @@ $desktops: 1051px;
 }
 
 html{
-	height:2000px;
+	height:9000px;
 	background-color: $blue;
 }
