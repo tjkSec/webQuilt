@@ -14,6 +14,11 @@ $desktops: 1051px;
 @mixin tight(){
 	position: absolute;
 }
+
+@mixin firm(){
+	position: relative;
+}
+
 @mixin ciruclar($radius){
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
@@ -25,6 +30,7 @@ $desktops: 1051px;
 }
 @mixin pushDown($length){
 	padding-top: $length;
+	margin-top: $length;
 }
 
 @mixin hard_push_down($length){
@@ -33,6 +39,14 @@ $desktops: 1051px;
 
 @mixin rotate($deg){
 	transform: rotate($deg);
+}
+
+.set_tight{
+	@include firm();
+}
+
+.set_firm{
+	@include tight();
 }
 
 .top_left_tri{
@@ -196,6 +210,20 @@ $desktops: 1051px;
 	}
 }
 
+@mixin palette_mb($color, $push) {
+	position: absolute;
+	transition: top 0.3s, height 0.3s ;
+	width:5vw;
+	height:200px;
+	background-color:$color;
+	top:998px;
+	left:$push;
+	&:hover{
+		top:898px;
+		height:300px;
+	}
+}
+
 .palette_1{
 	@include palette(#FEF036, 0vw);
 }
@@ -242,6 +270,68 @@ $desktops: 1051px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.palette_1_mb{
+	@include palette_mb(#FEF036, 0vw);
+}
+
+.palette_2_mb{
+	@include palette_mb(#76C775, 5.25vw);
+}
+
+.palette_3_mb{
+	@include palette_mb(#2F648D, 10.5vw);
+}
+
+.palette_4_mb{
+	@include palette_mb(#917CB7, 15.75vw);
+}
+
+.palette_5_mb{
+	@include palette_mb(#F3AECE, 21vw);
+}
+
+.palette_6_mb{
+	@include palette_mb(#EF5D61, 26.25vw);
+}
+
+.palette_7_mb{
+	@include palette_mb(#FD9B37, 31.5vw);
+}
+
+// from here
+.palette_8_mb{
+	@include palette_mb(#94775E, 36.75vw);
+}
+
+.palette_9_mb{
+	@include palette_mb(#363636, 42vw);
+}
+
+.palette_10_mb{
+	@include palette_mb(#6A6A6A, 47.25vw);
+}
+
+.palette_11_mb{
+	@include palette_mb(#CACDCC, 52.5vw);
+}
+
+
+
+
 .curve_edges{
 	@include ciruclar(275px)
 }
@@ -254,12 +344,16 @@ $desktops: 1051px;
 	@include hard_push_down(50px);
 }
 
-.hard-push-50{
+.hard-push-100{
 	@include hard_push_down(100px);
 }
 
-.hard-push-50{
+.hard-push-150{
 	@include hard_push_down(150px);
+}
+
+.hard-push-155{
+	@include hard_push_down(155px);
 }
 .svg_font{
 	font-family: 'Roboto', sans-serif;
@@ -312,6 +406,14 @@ $desktops: 1051px;
 .wq-header2{
 	background-color: #2B313C;
 	height:800px;
+	width: 100%;
+	@include tight();
+}
+
+.wq-header3{
+	background-color: #242831;
+	top:1200px;
+	height:200px;
 	width: 100%;
 	@include tight();
 }
