@@ -1,5 +1,5 @@
 .top_left_tri {
-  background-color: #C82647;
+  background-color: #4171A0;
   position: absolute;
   width: 300px;
   height: 100%;
@@ -7,11 +7,18 @@
   top: -400px;
   left: -100px; }
 
+.center-logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -90px !important;
+  display: block;
+  top: 0; }
+
 .abos {
   position: absolute; }
 
 .top_left_tri2 {
-  background-color: #2094F8;
+  background-color: #4C90C1;
   position: absolute;
   width: 300px;
   height: 100%;
@@ -21,49 +28,49 @@
 
 .pt_sans_300 {
   font: 300% "Ubuntu", sans-serif;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_200 {
   font: 200% "Ubuntu", sans-serif;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_100 {
   font: 100% "Ubuntu", sans-serif;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_50l {
   font: 50% "Ubuntu", sans-serif;
   font-weight: 50;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_300l {
   font: 300% "Ubuntu", sans-serif;
   font-weight: 300;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_200l {
   font: 200% "Ubuntu", sans-serif;
   font-weight: 300;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_165l {
   font: 165% "Ubuntu", sans-serif;
   font-weight: 300;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_100l {
   font: 100% "Ubuntu", sans-serif;
   font-weight: 100;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_125l {
   font: 125% "Ubuntu", sans-serif;
   font-weight: 100;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .pt_sans_50 {
   font: 50% "Ubuntu", sans-serif;
-  color: #282830; }
+  color: #F1F1F1; }
 
 .center-weak {
   text-align: center; }
@@ -81,12 +88,50 @@
   transform: translate(-50%, -50%);
   border-bottom: 1px solid grey; }
 
+.navbar-oasis {
+  background-color: #F1F1F1;
+  padding: 30px; }
+
+.cover_1 {
+  background-color: #1F1F1F;
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 999; }
+
+.cover_2 {
+  background-color: #1F1F1F;
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  left: 50vw;
+  top: 0px;
+  z-index: 999; }
+
+.divider__ {
+  margin-top: 100px;
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid grey; }
+
+.divider___ {
+  margin-top: 100px;
+  width: 230px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid grey; }
+
 .palette_1 {
   position: absolute;
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #2094F8;
+  background-color: #FEF036;
   top: 900px;
   left: 0vw; }
   .palette_1:hover {
@@ -98,7 +143,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #C82647;
+  background-color: #76C775;
   top: 900px;
   left: 5.25vw; }
   .palette_2:hover {
@@ -110,7 +155,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #27AE60;
+  background-color: #2F648D;
   top: 900px;
   left: 10.5vw; }
   .palette_3:hover {
@@ -122,7 +167,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #785EDD;
+  background-color: #917CB7;
   top: 900px;
   left: 15.75vw; }
   .palette_4:hover {
@@ -134,7 +179,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #22202B;
+  background-color: #F3AECE;
   top: 900px;
   left: 21vw; }
   .palette_5:hover {
@@ -146,7 +191,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #706F77;
+  background-color: #EF5D61;
   top: 900px;
   left: 26.25vw; }
   .palette_6:hover {
@@ -158,7 +203,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #FA4228;
+  background-color: #FD9B37;
   top: 900px;
   left: 31.5vw; }
   .palette_7:hover {
@@ -170,7 +215,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #FFE1AE;
+  background-color: #94775E;
   top: 900px;
   left: 36.75vw; }
   .palette_8:hover {
@@ -182,7 +227,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #804829;
+  background-color: #363636;
   top: 900px;
   left: 42vw; }
   .palette_9:hover {
@@ -194,7 +239,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #5CD5E6;
+  background-color: #6A6A6A;
   top: 900px;
   left: 47.25vw; }
   .palette_10:hover {
@@ -206,7 +251,7 @@
   transition: top 0.5s, height 0.5s;
   width: 5vw;
   height: 300px;
-  background-color: #4DC9A5;
+  background-color: #CACDCC;
   top: 900px;
   left: 52.5vw; }
   .palette_11:hover {
@@ -230,6 +275,9 @@
 
 .hard-push-50 {
   top: 150px; }
+
+.svg_font {
+  font-family: 'Roboto', sans-serif; }
 
 .pushDown-50 {
   padding-top: 50px; }
@@ -260,8 +308,14 @@
   margin: 0 auto; }
 
 .wq-header {
-  background-color: #FFFFFF;
+  background-color: #242831;
   height: 1200px;
+  width: 100%;
+  position: absolute; }
+
+.wq-header2 {
+  background-color: #2B313C;
+  height: 800px;
   width: 100%;
   position: absolute; }
 

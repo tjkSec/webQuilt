@@ -3,7 +3,7 @@
 // fonts
 $pt_sans: 'Ubuntu', sans-serif;
 // color
-$black: #282830;
+$black: #F1F1F1;
 $white: #FFFFFF;
 $blue: #2094F8;
 // mobile and other max widths
@@ -36,7 +36,7 @@ $desktops: 1051px;
 }
 
 .top_left_tri{
-	background-color: #C82647;
+	background-color: #4171A0;
 	position: absolute;
 	width:300px;
 	height:100%;
@@ -44,13 +44,19 @@ $desktops: 1051px;
 	top:-400px;
 	left:-100px;
 }
-
+.center-logo{
+	position: absolute;
+    left: 50%;
+    margin-left: -90px !important;
+    display: block;
+	top:0;
+}
 .abos{
 	position: absolute;
 }
 
 .top_left_tri2{
-	background-color: $blue;
+	background-color: #4C90C1;
 	position: absolute;
 	width:300px;
 	height:100%;
@@ -136,6 +142,46 @@ $desktops: 1051px;
 	border-bottom: 1px solid grey;
 }
 
+.navbar-oasis{
+	background-color: #F1F1F1;
+	padding:30px;
+}
+
+@mixin cover($cover_color, $left, $top) {
+	background-color: $cover_color;
+	width:50vw;
+	height:100vh;
+	position: absolute;
+	left:$left;
+	top:$top;
+	z-index:999;
+}
+
+.cover_1{
+	@include cover(#1F1F1F, 0px, 0px);
+}
+.cover_2{
+	@include cover(#1F1F1F, 50vw, 0px);
+}
+
+.divider__{
+	margin-top: 100px;
+	width:400px;
+	position: relative;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-bottom: 1px solid grey;
+}
+
+.divider___{
+	margin-top: 100px;
+	width:230px;
+	position: relative;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-bottom: 1px solid grey;
+}
+
 @mixin palette($color, $push) {
 	position: absolute;
 	transition: top 0.5s, height 0.5s ;
@@ -151,53 +197,49 @@ $desktops: 1051px;
 }
 
 .palette_1{
-	@include palette(#2094F8, 0vw);
+	@include palette(#FEF036, 0vw);
 }
 
 .palette_2{
-	@include palette(#C82647, 5.25vw);
+	@include palette(#76C775, 5.25vw);
 }
 
 .palette_3{
-	@include palette(#27AE60, 10.5vw);
+	@include palette(#2F648D, 10.5vw);
 }
 
 .palette_4{
-	@include palette(#785EDD, 15.75vw);
+	@include palette(#917CB7, 15.75vw);
 }
 
 .palette_5{
-	@include palette(#22202B, 21vw);
+	@include palette(#F3AECE, 21vw);
 }
 
 .palette_6{
-	@include palette(#706F77, 26.25vw);
+	@include palette(#EF5D61, 26.25vw);
 }
 
 .palette_7{
-	@include palette(#FA4228, 31.5vw);
+	@include palette(#FD9B37, 31.5vw);
 }
 
 // from here
 .palette_8{
-	@include palette(#FFE1AE, 36.75vw);
+	@include palette(#94775E, 36.75vw);
 }
 
 .palette_9{
-	@include palette(#804829, 42vw);
+	@include palette(#363636, 42vw);
 }
 
 .palette_10{
-	@include palette(#5CD5E6, 47.25vw);
+	@include palette(#6A6A6A, 47.25vw);
 }
 
 .palette_11{
-	@include palette(#4DC9A5, 52.5vw);
+	@include palette(#CACDCC, 52.5vw);
 }
-
-
-
-
 
 
 .curve_edges{
@@ -219,8 +261,9 @@ $desktops: 1051px;
 .hard-push-50{
 	@include hard_push_down(150px);
 }
-
-
+.svg_font{
+	font-family: 'Roboto', sans-serif;
+}
 .pushDown-50{
 	@include pushDown(50px);
 }
@@ -259,8 +302,16 @@ $desktops: 1051px;
 
 
 .wq-header{
-	background-color: $white;
+	background-color: #242831;
 	height:1200px;
+	width: 100%;
+	@include tight();
+}
+
+
+.wq-header2{
+	background-color: #2B313C;
+	height:800px;
 	width: 100%;
 	@include tight();
 }

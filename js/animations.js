@@ -1,5 +1,6 @@
 $( document ).ready(function(){
 	refresh_data();
+	uncover();
 	setInterval(function () {
 	refresh_data();
 }, 6000);
@@ -23,4 +24,26 @@ var refresh_data;
 		}
 
 		refresh_data = _0;
+}).call(this);
+
+
+var uncover;
+(function () {
+	var _$0 = this;
+
+	function _0() {
+		_$0.setTimeout(function () {
+			var cover1, cover2;
+			cover1 = $('#cover-1');
+			cover2 = $('#cover-2');
+			cover1.animate({
+				left: '-50vw'
+			}, 1000);
+			cover2.animate({
+				left: '100vw'
+			}, 1000);
+		}, 250);
+	}
+
+	uncover = _0;
 }).call(this);
