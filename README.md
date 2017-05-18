@@ -1,4 +1,4 @@
-<img src="https://camo.githubusercontent.com/30c55bf3677998c4619ddcea0c45f306dc745c08/68747470733a2f2f746a6b7365632e6769746875622e696f2f7765625175696c742f7265736f75726365732f6c6f676f372e737667" style="width:180px;height:90px;">
+<img src="https://camo.githubusercontent.com/30c55bf3677998c4619ddcea0c45f306dc745c08/68747470733a2f2f746a6b7365632e6769746875622e696f2f7765625175696c742f7265736f75726365732f6c6f676f372e737667" width = '180' height = '90'>
 
 ### What is this?
 webQuilt is a easy to use website that supplies many great hand-picked colours so that whether your creating your first website or making a colourful logo, you can design it to the best of your ability.
