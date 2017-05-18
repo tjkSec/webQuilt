@@ -482,6 +482,23 @@ $desktops: 1051px;
 	@include tight();
 }
 
+@mixin skeleton( $color){
+	height: auto;
+	transform: scale(1.2);
+	width: auto;
+	transition: transform 0.5s;
+	.st0{fill:$color;}
+ 	.st1{fill:none;stroke:$color;stroke-miterlimit:10;}
+	&:hover{
+		transform: scale(1.4);
+	}
+}
+
+.color_set-1{
+	position: absolute;
+	top:1500px;
+}
+
 
 .wq-header2{
 	background-color: #2B313C;
@@ -500,5 +517,5 @@ $desktops: 1051px;
 
 html{
 	height:9000px;
-	background-color: $blue;
+	background-color: #242831;
 }

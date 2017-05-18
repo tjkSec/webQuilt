@@ -662,6 +662,10 @@
   width: 100%;
   position: absolute; }
 
+.color_set-1 {
+  position: absolute;
+  top: 1500px; }
+
 .wq-header2 {
   background-color: #2B313C;
   height: 800px;
@@ -677,6 +681,6 @@
 
 html {
   height: 9000px;
-  background-color: #2094F8; }
+  background-color: #242831; }
 
 /*# sourceMappingURL=style.css.map */

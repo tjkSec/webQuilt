@@ -1,0 +1,51 @@
+@mixin skeleton( $color){
+	height: auto;
+	transform: scale(1.2);
+	width: auto;
+	transition: transform 0.5s;
+	.st0{fill:$color;}
+ 	.st1{fill:none;stroke:$color;stroke-miterlimit:10;}
+	&:hover{
+		transform: scale(1.4);
+	}
+}
+
+// row 1
+.color_skeleton_0{
+	@include skeleton(#fff6cf)
+}
+.color_skeleton_1{
+	@include skeleton(#fff2ba)
+}
+.color_skeleton_2{
+	@include skeleton(#ffe988)
+}
+.color_skeleton_3{
+	@include skeleton(#ffe15c)
+}
+.color_skeleton_4{
+	@include skeleton(#ffda38)
+}
+.color_skeleton_5{
+	@include skeleton(#ffd416)
+}
+
+// row 2
+.color_skeleton__0{
+	@include skeleton(#fffbc4)
+}
+.color_skeleton__1{
+	@include skeleton(#fff89e)
+}
+.color_skeleton__2{
+	@include skeleton(#fff467)
+}
+.color_skeleton__3{
+	@include skeleton(#fff036)
+}
+.color_skeleton__4{
+	@include skeleton(#ffee17)
+}
+.color_skeleton__5{
+	@include skeleton(#ffec00)
+}
