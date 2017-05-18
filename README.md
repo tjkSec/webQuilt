@@ -1,4 +1,4 @@
-# webQuilt
+![alt text](https://tjksec.github.io/webQuilt/resources/logo6.svg "webQuilt")
 
 ### What is this?
 webQuilt is a easy to use website that supplies many great hand-picked colours so that whether your creating your first website or making a colourful logo, you can design it to the best of your ability.
