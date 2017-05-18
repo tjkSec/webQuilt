@@ -1,7 +1,7 @@
 # webQuilt
 
 ### What is this?
-webQuilt is a easy to use website that supplies many great hand-picked colours so that whether your creating your first website or making a colourful logo, you can design to the best of your ability.
+webQuilt is a easy to use website that supplies many great hand-picked colours so that whether your creating your first website or making a colourful logo, you can design it to the best of your ability.
 
 ### What's the status for this website as of 18/05/2017?
 webQuilt is still in development and I have only just completed the front section of the page. I hope to see the project completed within a week or two.
