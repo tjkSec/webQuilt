@@ -101,7 +101,7 @@
 .cover_1 {
   background-color: #1F1F1F;
   width: 50vw;
-  height: 100vh;
+  height: 2000px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -110,7 +110,7 @@
 .cover_2 {
   background-color: #1F1F1F;
   width: 50vw;
-  height: 100vh;
+  height: 2000px;
   position: absolute;
   left: 50vw;
   top: 0px;
