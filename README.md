@@ -10,7 +10,7 @@ webQuilt is still in development and I have only just completed the front sectio
 webQuilt is being built on the thought that it will contain heavy categorization and hundreds of palettes to choose from, an example of atleast three of these are **Web Palette: Dark Theme**, **Art Palette: Shades of Snow** and **The offical webQuilt Palette**. 
 
 ### Future plans
-<s>- Side Nav</s>
+- ``Side Nav``
 - Zoom feature 
 - Palettes
 - User created palettes
