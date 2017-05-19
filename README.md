@@ -11,7 +11,7 @@ webQuilt is being built on the thought that it will contain heavy categorization
 
 ### Future plans
 - ~~Side Nav~~
-- Zoom feature 
+- Zoom feature ✔️
 - Palettes
 - User created palettes
 - Color organization
