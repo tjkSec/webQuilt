@@ -13,7 +13,7 @@ webQuilt is being built on the thought that it will contain heavy categorization
 - Side Nav
 - Scaling Feature 
 
-##### The developer.
+### The developer.
 I am creating this site solo, I am currently learning things like PHP, Sass (reason of website being created in the first place), JS and more. I have only been programming for about a year in general, web development about half of that so I am always happy to hear suggestions or feedback from any other experienced developers. 
 
 https://tjksec.github.io/webQuilt/
