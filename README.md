@@ -17,7 +17,7 @@ webQuilt is being built on the thought that it will contain heavy categorization
 - Color organization
 
 ### The developer.
-I am creating this site solo, I am currently learning things like PHP, Sass (reason of website being created in the first place), JS and more. I have only been programming for about a year in general, web development about half of that so I am always happy to hear suggestions or feedback from any other experienced developers. 
+I am creating this site solo, I am currently learning things like Javascript, Sass (reason of website being created in the first place), PHP and more. I have only been programming for about a year in general, web development about half of that so I am always happy to hear suggestions or feedback from any other experienced developers. 
 
 https://tjksec.github.io/webQuilt/
 
