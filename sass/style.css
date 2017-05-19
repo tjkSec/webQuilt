@@ -675,13 +675,38 @@
 .color_set-1 {
   position: absolute;
   top: 1500px;
-  width: 100vw;
+  width: 75vw;
   left: 50%;
   transform: translateX(-50%); }
+  @media (max-width: 800px) {
+    .color_set-1 {
+      width: 100vw; } }
 
 .hard-push-set_1 {
   position: relative;
   top: 1500px; }
+
+.center-v-strong {
+  position: relative;
+  top: 48%;
+  left: 25%;
+  transform: translateY(-50%);
+  transform: translateX(-50%); }
+
+.toTheTop {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  position: absolute;
+  transition: background-color 0.5s, top 0.2s;
+  width: 300px;
+  height: 50px;
+  background-color: rgba(241, 241, 241, 0.1);
+  left: 90vw;
+  top: 20px; }
+  .toTheTop:hover {
+    background-color: rgba(241, 241, 241, 0.2); }
 
 .wq-header2 {
   background-color: #2B313C;

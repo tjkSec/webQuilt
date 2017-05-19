@@ -47,3 +47,21 @@ var uncover;
 
 	uncover = _0;
 }).call(this);
+
+setInterval(function () {
+	$(window).scroll(function() {
+	    if ($(this).scrollTop() >= 200) {
+	        $('.toTheTop').css({'top':'90px'});
+	    }
+		else{
+			$('.toTheTop').css({'top':'10px'});
+		}
+	});
+}, 5);
+
+function topShop() {
+	$('html, body').animate({ scrollTop: 500 }, 'slow');
+}
+
+
+//$('.toTheTop').animate({'top':'90px'});
