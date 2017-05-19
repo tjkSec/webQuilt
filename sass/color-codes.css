@@ -1,6 +1,6 @@
 .color_skeleton_0 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_0 .st0 {
@@ -10,11 +10,14 @@
     stroke: #fff6cf;
     stroke-miterlimit: 10; }
   .color_skeleton_0:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_0 {
+      transform: scale(1); } }
 
 .color_skeleton_1 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_1 .st0 {
@@ -24,11 +27,14 @@
     stroke: #fff2ba;
     stroke-miterlimit: 10; }
   .color_skeleton_1:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_1 {
+      transform: scale(1); } }
 
 .color_skeleton_2 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_2 .st0 {
@@ -38,11 +44,14 @@
     stroke: #ffe988;
     stroke-miterlimit: 10; }
   .color_skeleton_2:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_2 {
+      transform: scale(1); } }
 
 .color_skeleton_3 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_3 .st0 {
@@ -52,11 +61,14 @@
     stroke: #ffe15c;
     stroke-miterlimit: 10; }
   .color_skeleton_3:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_3 {
+      transform: scale(1); } }
 
 .color_skeleton_4 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_4 .st0 {
@@ -66,11 +78,14 @@
     stroke: #ffda38;
     stroke-miterlimit: 10; }
   .color_skeleton_4:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_4 {
+      transform: scale(1); } }
 
 .color_skeleton_5 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton_5 .st0 {
@@ -80,11 +95,14 @@
     stroke: #ffd416;
     stroke-miterlimit: 10; }
   .color_skeleton_5:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_5 {
+      transform: scale(1); } }
 
 .color_skeleton__0 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__0 .st0 {
@@ -94,11 +112,14 @@
     stroke: #fffbc4;
     stroke-miterlimit: 10; }
   .color_skeleton__0:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__0 {
+      transform: scale(1); } }
 
 .color_skeleton__1 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__1 .st0 {
@@ -108,11 +129,14 @@
     stroke: #fff89e;
     stroke-miterlimit: 10; }
   .color_skeleton__1:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__1 {
+      transform: scale(1); } }
 
 .color_skeleton__2 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__2 .st0 {
@@ -122,11 +146,14 @@
     stroke: #fff467;
     stroke-miterlimit: 10; }
   .color_skeleton__2:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__2 {
+      transform: scale(1); } }
 
 .color_skeleton__3 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__3 .st0 {
@@ -136,11 +163,14 @@
     stroke: #fff036;
     stroke-miterlimit: 10; }
   .color_skeleton__3:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__3 {
+      transform: scale(1); } }
 
 .color_skeleton__4 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__4 .st0 {
@@ -150,11 +180,14 @@
     stroke: #ffee17;
     stroke-miterlimit: 10; }
   .color_skeleton__4:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__4 {
+      transform: scale(1); } }
 
 .color_skeleton__5 {
   height: auto;
-  transform: scale(1.2);
+  transform: scale(1.4);
   width: auto;
   transition: transform 0.5s; }
   .color_skeleton__5 .st0 {
@@ -164,6 +197,1029 @@
     stroke: #ffec00;
     stroke-miterlimit: 10; }
   .color_skeleton__5:hover {
-    transform: scale(1.4); }
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton__5 {
+      transform: scale(1); } }
+
+.color_skeleton___0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___0 .st0 {
+    fill: #fffec3; }
+  .color_skeleton___0 .st1 {
+    fill: none;
+    stroke: #fffec3;
+    stroke-miterlimit: 10; }
+  .color_skeleton___0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___0 {
+      transform: scale(1); } }
+
+.color_skeleton___1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___1 .st0 {
+    fill: #fffd89; }
+  .color_skeleton___1 .st1 {
+    fill: none;
+    stroke: #fffd89;
+    stroke-miterlimit: 10; }
+  .color_skeleton___1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___1 {
+      transform: scale(1); } }
+
+.color_skeleton___2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___2 .st0 {
+    fill: #fffc67; }
+  .color_skeleton___2 .st1 {
+    fill: none;
+    stroke: #fffc67;
+    stroke-miterlimit: 10; }
+  .color_skeleton___2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___2 {
+      transform: scale(1); } }
+
+.color_skeleton___3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___3 .st0 {
+    fill: #fffb3a; }
+  .color_skeleton___3 .st1 {
+    fill: none;
+    stroke: #fffb3a;
+    stroke-miterlimit: 10; }
+  .color_skeleton___3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___3 {
+      transform: scale(1); } }
+
+.color_skeleton___4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___4 .st0 {
+    fill: #fefa1d; }
+  .color_skeleton___4 .st1 {
+    fill: none;
+    stroke: #fefa1d;
+    stroke-miterlimit: 10; }
+  .color_skeleton___4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___4 {
+      transform: scale(1); } }
+
+.color_skeleton___5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton___5 .st0 {
+    fill: #fffa00; }
+  .color_skeleton___5 .st1 {
+    fill: none;
+    stroke: #fffa00;
+    stroke-miterlimit: 10; }
+  .color_skeleton___5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton___5 {
+      transform: scale(1); } }
+
+.color_skeleton____0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____0 .st0 {
+    fill: #fcffbc; }
+  .color_skeleton____0 .st1 {
+    fill: none;
+    stroke: #fcffbc;
+    stroke-miterlimit: 10; }
+  .color_skeleton____0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____0 {
+      transform: scale(1); } }
+
+.color_skeleton____1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____1 .st0 {
+    fill: #faff8d; }
+  .color_skeleton____1 .st1 {
+    fill: none;
+    stroke: #faff8d;
+    stroke-miterlimit: 10; }
+  .color_skeleton____1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____1 {
+      transform: scale(1); } }
+
+.color_skeleton____2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____2 .st0 {
+    fill: #f8ff62; }
+  .color_skeleton____2 .st1 {
+    fill: none;
+    stroke: #f8ff62;
+    stroke-miterlimit: 10; }
+  .color_skeleton____2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____2 {
+      transform: scale(1); } }
+
+.color_skeleton____3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____3 .st0 {
+    fill: #f7ff41; }
+  .color_skeleton____3 .st1 {
+    fill: none;
+    stroke: #f7ff41;
+    stroke-miterlimit: 10; }
+  .color_skeleton____3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____3 {
+      transform: scale(1); } }
+
+.color_skeleton____4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____4 .st0 {
+    fill: #f5ff19; }
+  .color_skeleton____4 .st1 {
+    fill: none;
+    stroke: #f5ff19;
+    stroke-miterlimit: 10; }
+  .color_skeleton____4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____4 {
+      transform: scale(1); } }
+
+.color_skeleton____5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton____5 .st0 {
+    fill: #f4ff00; }
+  .color_skeleton____5 .st1 {
+    fill: none;
+    stroke: #f4ff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton____5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton____5 {
+      transform: scale(1); } }
+
+.color_skeleton_____0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____0 .st0 {
+    fill: #ffd100; }
+  .color_skeleton_____0 .st1 {
+    fill: none;
+    stroke: #ffd100;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____0 {
+      transform: scale(1); } }
+
+.color_skeleton_____1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____1 .st0 {
+    fill: #ffe800; }
+  .color_skeleton_____1 .st1 {
+    fill: none;
+    stroke: #ffe800;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____1 {
+      transform: scale(1); } }
+
+.color_skeleton_____2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____2 .st0 {
+    fill: #fff000; }
+  .color_skeleton_____2 .st1 {
+    fill: none;
+    stroke: #fff000;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____2 {
+      transform: scale(1); } }
+
+.color_skeleton_____3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____3 .st0 {
+    fill: #fbff00; }
+  .color_skeleton_____3 .st1 {
+    fill: none;
+    stroke: #fbff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____3 {
+      transform: scale(1); } }
+
+.color_skeleton_____4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____4 .st0 {
+    fill: #f3ff00; }
+  .color_skeleton_____4 .st1 {
+    fill: none;
+    stroke: #f3ff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____4 {
+      transform: scale(1); } }
+
+.color_skeleton_____5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_____5 .st0 {
+    fill: #e3ee00; }
+  .color_skeleton_____5 .st1 {
+    fill: none;
+    stroke: #e3ee00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_____5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_____5 {
+      transform: scale(1); } }
+
+.color_skeleton______0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______0 .st0 {
+    fill: #fff2c5; }
+  .color_skeleton______0 .st1 {
+    fill: none;
+    stroke: #fff2c5;
+    stroke-miterlimit: 10; }
+  .color_skeleton______0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______0 {
+      transform: scale(1); } }
+
+.color_skeleton______1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______1 .st0 {
+    fill: #fcf3cf; }
+  .color_skeleton______1 .st1 {
+    fill: none;
+    stroke: #fcf3cf;
+    stroke-miterlimit: 10; }
+  .color_skeleton______1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______1 {
+      transform: scale(1); } }
+
+.color_skeleton______2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______2 .st0 {
+    fill: #f9e79f; }
+  .color_skeleton______2 .st1 {
+    fill: none;
+    stroke: #f9e79f;
+    stroke-miterlimit: 10; }
+  .color_skeleton______2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______2 {
+      transform: scale(1); } }
+
+.color_skeleton______3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______3 .st0 {
+    fill: #f7dc6f; }
+  .color_skeleton______3 .st1 {
+    fill: none;
+    stroke: #f7dc6f;
+    stroke-miterlimit: 10; }
+  .color_skeleton______3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______3 {
+      transform: scale(1); } }
+
+.color_skeleton______4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______4 .st0 {
+    fill: #f4d03f; }
+  .color_skeleton______4 .st1 {
+    fill: none;
+    stroke: #f4d03f;
+    stroke-miterlimit: 10; }
+  .color_skeleton______4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______4 {
+      transform: scale(1); } }
+
+.color_skeleton______5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton______5 .st0 {
+    fill: #f1c40f; }
+  .color_skeleton______5 .st1 {
+    fill: none;
+    stroke: #f1c40f;
+    stroke-miterlimit: 10; }
+  .color_skeleton______5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton______5 {
+      transform: scale(1); } }
+
+.color_skeleton_g_0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_0 .st0 {
+    fill: #eeffda; }
+  .color_skeleton_g_0 .st1 {
+    fill: none;
+    stroke: #eeffda;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_0 {
+      transform: scale(1); } }
+
+.color_skeleton_g_1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_1 .st0 {
+    fill: #e4ffc4; }
+  .color_skeleton_g_1 .st1 {
+    fill: none;
+    stroke: #e4ffc4;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_1 {
+      transform: scale(1); } }
+
+.color_skeleton_g_2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_2 .st0 {
+    fill: #ddffb5; }
+  .color_skeleton_g_2 .st1 {
+    fill: none;
+    stroke: #ddffb5;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_2 {
+      transform: scale(1); } }
+
+.color_skeleton_g_3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_3 .st0 {
+    fill: #d5ffa4; }
+  .color_skeleton_g_3 .st1 {
+    fill: none;
+    stroke: #d5ffa4;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_3 {
+      transform: scale(1); } }
+
+.color_skeleton_g_4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_4 .st0 {
+    fill: #cbff8f; }
+  .color_skeleton_g_4 .st1 {
+    fill: none;
+    stroke: #cbff8f;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_4 {
+      transform: scale(1); } }
+
+.color_skeleton_g_5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_5 .st0 {
+    fill: #bfff75; }
+  .color_skeleton_g_5 .st1 {
+    fill: none;
+    stroke: #bfff75;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_5 {
+      transform: scale(1); } }
+
+.color_skeleton_g__0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__0 .st0 {
+    fill: #b2ff5a; }
+  .color_skeleton_g__0 .st1 {
+    fill: none;
+    stroke: #b2ff5a;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__0 {
+      transform: scale(1); } }
+
+.color_skeleton_g__1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__1 .st0 {
+    fill: #a1ff35; }
+  .color_skeleton_g__1 .st1 {
+    fill: none;
+    stroke: #a1ff35;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__1 {
+      transform: scale(1); } }
+
+.color_skeleton_g__2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__2 .st0 {
+    fill: #98fe23; }
+  .color_skeleton_g__2 .st1 {
+    fill: none;
+    stroke: #98fe23;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__2 {
+      transform: scale(1); } }
+
+.color_skeleton_g__3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__3 .st0 {
+    fill: #8ffa14; }
+  .color_skeleton_g__3 .st1 {
+    fill: none;
+    stroke: #8ffa14;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__3 {
+      transform: scale(1); } }
+
+.color_skeleton_g__4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__4 .st0 {
+    fill: #84eb0e; }
+  .color_skeleton_g__4 .st1 {
+    fill: none;
+    stroke: #84eb0e;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__4 {
+      transform: scale(1); } }
+
+.color_skeleton_g__5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g__5 .st0 {
+    fill: #7bda0d; }
+  .color_skeleton_g__5 .st1 {
+    fill: none;
+    stroke: #7bda0d;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g__5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g__5 {
+      transform: scale(1); } }
+
+.color_skeleton_g___0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___0 .st0 {
+    fill: #c1ffc3; }
+  .color_skeleton_g___0 .st1 {
+    fill: none;
+    stroke: #c1ffc3;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___0 {
+      transform: scale(1); } }
+
+.color_skeleton_g___1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___1 .st0 {
+    fill: #abffae; }
+  .color_skeleton_g___1 .st1 {
+    fill: none;
+    stroke: #abffae;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___1 {
+      transform: scale(1); } }
+
+.color_skeleton_g___2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___2 .st0 {
+    fill: #8eff92; }
+  .color_skeleton_g___2 .st1 {
+    fill: none;
+    stroke: #8eff92;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___2 {
+      transform: scale(1); } }
+
+.color_skeleton_g___3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___3 .st0 {
+    fill: #78ff7d; }
+  .color_skeleton_g___3 .st1 {
+    fill: none;
+    stroke: #78ff7d;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___3 {
+      transform: scale(1); } }
+
+.color_skeleton_g___4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___4 .st0 {
+    fill: #59ff5f; }
+  .color_skeleton_g___4 .st1 {
+    fill: none;
+    stroke: #59ff5f;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___4 {
+      transform: scale(1); } }
+
+.color_skeleton_g___5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g___5 .st0 {
+    fill: #37ff3e; }
+  .color_skeleton_g___5 .st1 {
+    fill: none;
+    stroke: #37ff3e;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g___5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g___5 {
+      transform: scale(1); } }
+
+.color_skeleton_g____0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____0 .st0 {
+    fill: #76c775; }
+  .color_skeleton_g____0 .st1 {
+    fill: none;
+    stroke: #76c775;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____0 {
+      transform: scale(1); } }
+
+.color_skeleton_g____1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____1 .st0 {
+    fill: #66c565; }
+  .color_skeleton_g____1 .st1 {
+    fill: none;
+    stroke: #66c565;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____1 {
+      transform: scale(1); } }
+
+.color_skeleton_g____2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____2 .st0 {
+    fill: #56b855; }
+  .color_skeleton_g____2 .st1 {
+    fill: none;
+    stroke: #56b855;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____2 {
+      transform: scale(1); } }
+
+.color_skeleton_g____3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____3 .st0 {
+    fill: #3ca93b; }
+  .color_skeleton_g____3 .st1 {
+    fill: none;
+    stroke: #3ca93b;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____3 {
+      transform: scale(1); } }
+
+.color_skeleton_g____4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____4 .st0 {
+    fill: #20a71e; }
+  .color_skeleton_g____4 .st1 {
+    fill: none;
+    stroke: #20a71e;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____4 {
+      transform: scale(1); } }
+
+.color_skeleton_g____5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g____5 .st0 {
+    fill: #069404; }
+  .color_skeleton_g____5 .st1 {
+    fill: none;
+    stroke: #069404;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g____5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g____5 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____0 .st0 {
+    fill: #b8e19e; }
+  .color_skeleton_g_____0 .st1 {
+    fill: none;
+    stroke: #b8e19e;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____0 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____1 .st0 {
+    fill: #7cb359; }
+  .color_skeleton_g_____1 .st1 {
+    fill: none;
+    stroke: #7cb359;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____1 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____2 .st0 {
+    fill: #69a443; }
+  .color_skeleton_g_____2 .st1 {
+    fill: none;
+    stroke: #69a443;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____2 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____3 .st0 {
+    fill: #58a625; }
+  .color_skeleton_g_____3 .st1 {
+    fill: none;
+    stroke: #58a625;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____3 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____4 .st0 {
+    fill: #54af19; }
+  .color_skeleton_g_____4 .st1 {
+    fill: none;
+    stroke: #54af19;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____4 {
+      transform: scale(1); } }
+
+.color_skeleton_g_____5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g_____5 .st0 {
+    fill: #44a207; }
+  .color_skeleton_g_____5 .st1 {
+    fill: none;
+    stroke: #44a207;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g_____5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g_____5 {
+      transform: scale(1); } }
+
+.color_skeleton_g______0 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______0 .st0 {
+    fill: #aaff00; }
+  .color_skeleton_g______0 .st1 {
+    fill: none;
+    stroke: #aaff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______0:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______0 {
+      transform: scale(1); } }
+
+.color_skeleton_g______1 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______1 .st0 {
+    fill: #7cff00; }
+  .color_skeleton_g______1 .st1 {
+    fill: none;
+    stroke: #7cff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______1:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______1 {
+      transform: scale(1); } }
+
+.color_skeleton_g______2 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______2 .st0 {
+    fill: #a6ff00; }
+  .color_skeleton_g______2 .st1 {
+    fill: none;
+    stroke: #a6ff00;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______2:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______2 {
+      transform: scale(1); } }
+
+.color_skeleton_g______3 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______3 .st0 {
+    fill: #00ff0c; }
+  .color_skeleton_g______3 .st1 {
+    fill: none;
+    stroke: #00ff0c;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______3:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______3 {
+      transform: scale(1); } }
+
+.color_skeleton_g______4 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______4 .st0 {
+    fill: #52ff6f; }
+  .color_skeleton_g______4 .st1 {
+    fill: none;
+    stroke: #52ff6f;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______4:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______4 {
+      transform: scale(1); } }
+
+.color_skeleton_g______5 {
+  height: auto;
+  transform: scale(1.4);
+  width: auto;
+  transition: transform 0.5s; }
+  .color_skeleton_g______5 .st0 {
+    fill: #52ff7c; }
+  .color_skeleton_g______5 .st1 {
+    fill: none;
+    stroke: #52ff7c;
+    stroke-miterlimit: 10; }
+  .color_skeleton_g______5:hover {
+    transform: scale(1.6); }
+  @media (max-width: 750px) {
+    .color_skeleton_g______5 {
+      transform: scale(1); } }
 
 /*# sourceMappingURL=color-codes.css.map */

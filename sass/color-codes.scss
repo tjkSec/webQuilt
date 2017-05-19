@@ -1,12 +1,15 @@
 @mixin skeleton( $color){
 	height: auto;
-	transform: scale(1.2);
+	transform: scale(1.4);
 	width: auto;
 	transition: transform 0.5s;
 	.st0{fill:$color;}
  	.st1{fill:none;stroke:$color;stroke-miterlimit:10;}
 	&:hover{
-		transform: scale(1.4);
+		transform: scale(1.6);
+	}
+	@media (max-width: 750px) {
+		transform: scale(1);
 	}
 }
 
@@ -48,4 +51,259 @@
 }
 .color_skeleton__5{
 	@include skeleton(#ffec00)
+}
+
+// row 3
+.color_skeleton___0{
+	@include skeleton(#fffec3)
+}
+.color_skeleton___1{
+	@include skeleton(#fffd89)
+}
+.color_skeleton___2{
+	@include skeleton(#fffc67)
+}
+.color_skeleton___3{
+	@include skeleton(#fffb3a)
+}
+.color_skeleton___4{
+	@include skeleton(#fefa1d)
+}
+.color_skeleton___5{
+	@include skeleton(#fffa00)
+}
+
+// row 4
+.color_skeleton____0{
+	@include skeleton(#fcffbc)
+}
+.color_skeleton____1{
+	@include skeleton(#faff8d)
+}
+.color_skeleton____2{
+	@include skeleton(#f8ff62)
+}
+.color_skeleton____3{
+	@include skeleton(#f7ff41)
+}
+.color_skeleton____4{
+	@include skeleton(#f5ff19)
+}
+.color_skeleton____5{
+	@include skeleton(#f4ff00)
+}
+
+// row 5
+.color_skeleton_____0{
+	@include skeleton(#ffd100)
+}
+.color_skeleton_____1{
+	@include skeleton(#ffe800)
+}
+.color_skeleton_____2{
+	@include skeleton(#fff000)
+}
+.color_skeleton_____3{
+	@include skeleton(#fbff00)
+}
+.color_skeleton_____4{
+	@include skeleton(#f3ff00)
+}
+.color_skeleton_____5{
+	@include skeleton(#e3ee00)
+}
+
+// row 6
+.color_skeleton______0{
+	@include skeleton(#fff2c5)
+}
+.color_skeleton______1{
+	@include skeleton(#fcf3cf)
+}
+.color_skeleton______2{
+	@include skeleton(#f9e79f)
+}
+.color_skeleton______3{
+	@include skeleton(#f7dc6f)
+}
+.color_skeleton______4{
+	@include skeleton(#f4d03f)
+}
+.color_skeleton______5{
+	@include skeleton(#f1c40f)
+}
+
+
+
+
+
+
+
+
+
+// CHART NOW BECOMES GREEN
+
+
+
+
+
+
+
+
+
+
+ // row 1
+
+.color_skeleton_g_0{
+	@include skeleton(#eeffda)
+}
+
+.color_skeleton_g_1{
+	@include skeleton(#e4ffc4)
+}
+
+.color_skeleton_g_2{
+	@include skeleton(#ddffb5)
+}
+
+.color_skeleton_g_3{
+	@include skeleton(#d5ffa4)
+}
+
+.color_skeleton_g_4{
+	@include skeleton(#cbff8f)
+}
+
+.color_skeleton_g_5{
+	@include skeleton(#bfff75)
+}
+
+// row 2
+
+.color_skeleton_g__0{
+	@include skeleton(#b2ff5a)
+}
+
+.color_skeleton_g__1{
+	@include skeleton(#a1ff35)
+}
+
+.color_skeleton_g__2{
+	@include skeleton(#98fe23)
+}
+
+.color_skeleton_g__3{
+	@include skeleton(#8ffa14)
+}
+
+.color_skeleton_g__4{
+	@include skeleton(#84eb0e)
+}
+
+.color_skeleton_g__5{
+	@include skeleton(#7bda0d)
+}
+
+// row 3
+
+.color_skeleton_g___0{
+	@include skeleton(#c1ffc3)
+}
+
+.color_skeleton_g___1{
+	@include skeleton(#abffae)
+}
+
+.color_skeleton_g___2{
+	@include skeleton(#8eff92)
+}
+
+.color_skeleton_g___3{
+	@include skeleton(#78ff7d)
+}
+
+.color_skeleton_g___4{
+	@include skeleton(#59ff5f)
+}
+
+.color_skeleton_g___5{
+	@include skeleton(#37ff3e)
+}
+
+// row 4
+
+.color_skeleton_g____0{
+	@include skeleton(#76c775)
+}
+
+.color_skeleton_g____1{
+	@include skeleton(#66c565)
+}
+
+.color_skeleton_g____2{
+	@include skeleton(#56b855)
+}
+
+.color_skeleton_g____3{
+	@include skeleton(#3ca93b)
+}
+
+.color_skeleton_g____4{
+	@include skeleton(#20a71e)
+}
+
+.color_skeleton_g____5{
+	@include skeleton(#069404)
+}
+
+// row 5
+
+.color_skeleton_g_____0{
+	@include skeleton(#b8e19e)
+}
+
+.color_skeleton_g_____1{
+	@include skeleton(#7cb359)
+}
+
+.color_skeleton_g_____2{
+	@include skeleton(#69a443)
+}
+
+.color_skeleton_g_____3{
+	@include skeleton(#58a625)
+}
+
+.color_skeleton_g_____4{
+	@include skeleton(#54af19)
+}
+
+.color_skeleton_g_____5{
+	@include skeleton(#44a207)
+}
+
+// row 6
+
+.color_skeleton_g______0{
+	@include skeleton(#aaff00)
+}
+
+.color_skeleton_g______1{
+	@include skeleton(#7cff00)
+}
+
+.color_skeleton_g______2{
+	@include skeleton(#a6ff00)
+}
+
+.color_skeleton_g______3{
+	@include skeleton(#00ff0c)
+}
+
+.color_skeleton_g______4{
+	@include skeleton(#52ff6f)
+}
+
+.color_skeleton_g______5{
+	@include skeleton(#52ff7c)
 }
