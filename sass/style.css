@@ -74,6 +74,16 @@
   font-weight: 100;
   color: #F1F1F1; }
 
+.pt_sans_purp {
+  font: 125% "Ubuntu", sans-serif;
+  font-weight: 100;
+  color: #8E59DE;
+  font-weight: 300;
+  transition: transform 0.5s;
+  transition-delay: 0.25s; }
+  .pt_sans_purp:hover {
+    transform: scale(1.1); }
+
 .pt_sans_50 {
   font: 50% "Ubuntu", sans-serif;
   color: #F1F1F1; }
@@ -664,7 +674,10 @@
 
 .color_set-1 {
   position: absolute;
-  top: 2000px; }
+  top: 1500px;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%); }
 
 .hard-push-set_1 {
   position: relative;

@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="./sass/style.css">
 		<link rel="stylesheet" href="./sass/color-codes.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/buttons.js"></script>
 		<script
 			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
 			  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
@@ -32,6 +33,11 @@
 		      <li><a href="https://github.com/tjkSec/webQuilt">github</a></li>
 		      <li><a href="#">colors</a></li>
 		      <li><a href="#">information</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right hidden-xs">
+		      <li><a class="pt_sans_purp" onmouseover="$('#max').css( 'cursor' , 'pointer')" onclick="max()" id = "max">100%</a></li>
+			  <li><a class="pt_sans_purp" onmouseover="$('#mid').css( 'cursor' , 'pointer')"  onclick="mid()" id="mid">75%</a></li>
+			  <li><a class="pt_sans_purp" onmouseover="$('#half').css( 'cursor' , 'pointer')" onclick="half()" id = "half">50%</a></li>
 		    </ul>
 		  </div>
 		</nav>
