@@ -176,7 +176,7 @@ $desktops: 1051px;
 @mixin cover($cover_color, $left, $top) {
 	background-color: $cover_color;
 	width:50vw;
-	height:9000px;
+	height:15000px;
 	position: absolute;
 	left:$left;
 	top:$top;
