@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<h1 style="text-align:center;font-family:arial"> SVG Generator / Created by tkjso <br><br></h1>
+</header>
+	 <head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<script>
+	twoRows = false;
+	threeRows = false;
+	fourRows = false;
+	fiveRows = false;
+	sixRows = false;
+	sevenRows = false;
+	eightRows = false;
+	nineRows = false;
+	tenRows = false;
+	elevenRows = false;
+	(function () {
+	var _$1 = this;
+
+	var _$2 = this.setInterval;
+
+	function _0() {
+		switch (_$1.document.querySelector('#amountOfRows').value) {
+			case '1':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				break;
+
+			case '2':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				twoRows = true;
+				break;
+
+			case '3':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				break;
+
+			case '4':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				break;
+
+			case '5':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				break;
+
+			case '6':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				_$1.document.querySelector('#rowSevenClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				sixRows = true;
+				break;
+
+			case '7':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				_$1.document.querySelector('#rowSevenClass').disabled = false;
+				_$1.document.querySelector('#rowEightClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				sixRows = true;
+				sevenRows = true;
+				break;
+
+			case '8':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				_$1.document.querySelector('#rowSevenClass').disabled = false;
+				_$1.document.querySelector('#rowEightClass').disabled = false;
+				_$1.document.querySelector('#rowNineClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				sixRows = true;
+				sevenRows = true;
+				eightRows = true;
+				break;
+
+			case '9':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				_$1.document.querySelector('#rowSevenClass').disabled = false;
+				_$1.document.querySelector('#rowEightClass').disabled = false;
+				_$1.document.querySelector('#rowNineClass').disabled = false;
+				_$1.document.querySelector('#rowTenClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				sixRows = true;
+				sevenRows = true;
+				eightRows = true;
+				nineRows = true;
+				break;
+
+			case '10':
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowTwoClass').disabled = false;
+				_$1.document.querySelector('#rowThreeClass').disabled = false;
+				_$1.document.querySelector('#rowFourClass').disabled = false;
+				_$1.document.querySelector('#rowFiveClass').disabled = false;
+				_$1.document.querySelector('#rowSixClass').disabled = false;
+				_$1.document.querySelector('#rowSevenClass').disabled = false;
+				_$1.document.querySelector('#rowEightClass').disabled = false;
+				_$1.document.querySelector('#rowNineClass').disabled = false;
+				_$1.document.querySelector('#rowTenClass').disabled = false;
+				_$1.document.querySelector('#rowElevenClass').disabled = false;
+				twoRows = true;
+				threeRows = true;
+				fourRows = true;
+				fiveRows = true;
+				sixRows = true;
+				sevenRows = true;
+				eightRows = true;
+				nineRows = true;
+				tenRows = true;
+				break;
+
+			default:
+				_$1.document.querySelector('#rowTwoClass').disabled = true;
+				_$1.document.querySelector('#rowThreeClass').disabled = true;
+				_$1.document.querySelector('#rowFourClass').disabled = true;
+				_$1.document.querySelector('#rowFiveClass').disabled = true;
+				_$1.document.querySelector('#rowSixClass').disabled = true;
+				_$1.document.querySelector('#rowSevenClass').disabled = true;
+				_$1.document.querySelector('#rowEightClass').disabled = true;
+				_$1.document.querySelector('#rowNineClass').disabled = true;
+				_$1.document.querySelector('#rowTenClass').disabled = true;
+				_$1.document.querySelector('#rowElevenClass').disabled = true;
+				twoRows = false;
+				threeRows = false;
+				fourRows = false;
+				fiveRows = false;
+				sixRows = false;
+				sevenRows = false;
+				eightRows = false;
+				nineRows = false;
+				tenRows = false;
+				elevenRows = false;
+				break;
+		}
+	}
+
+	var _$0 = _$2(_0, 1);
+}).call(this);
+
+	function magic() {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowTwoClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowTwoClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowTwoClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+		}
+	}
+	function magic2() {
+		if(twoRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowThreeClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowThreeClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowThreeClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic3() {
+		if(threeRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowFourClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowFourClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowFourClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic4() {
+		if(fourRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowFiveClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowFiveClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowFiveClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic5() {
+		if(fiveRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowSixClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowSixClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowSixClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic6() {
+		if(sixRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowSevenClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowSevenClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowSevenClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic7() {
+		if(sevenRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowEightClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowEightClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowEightClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic8() {
+		if(eightRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowNineClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowNineClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowNineClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic9() {
+		if(nineRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowTenClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowTenClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowTenClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function magic10() {
+		if(tenRows == true) {
+		for(i=0;i < 6;i++) {
+			var svg_code = `<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2"><svg version="1.1" id="` + document.querySelector('#rowElevenClass').value + '_' + i + `" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve" class="` + document.querySelector('#rowElevenClass').value + '_' + i + `"><rect id="XMLID_1_" x="17.1" y="14.3" width="395.8" height="401.5"/></svg></div>`;
+			$('#output').val($('#output').val() + svg_code);
+			scss_code_10 = '.' + document.querySelector('#rowElevenClass').value + '_' + i + `{ @include block(colorHere) }\n\n`
+			$('#output_scss').val($('#output_scss').val() + scss_code_10);
+			}
+		}
+	}
+	function master_Btn() {
+		if (document.getElementById('mixnorNot').checked) {
+			var mixin = '@mixin block( $color){ height: auto; transform: scale(1.4); width: auto; transition: transform 0.5s; .st0{fill:$color;} .st1{fill:none;stroke:$color;stroke-miterlimit:10;} &:hover{ transform: scale(1.6); } @media (max-width: 750px) { transform: scale(1); } }\n\n\n\n\n\n\n\n';
+			$('#output_scss').val($('#output_scss').val() + mixin);
+		}
+		magic();
+		magic2();
+		magic3();
+		magic4();
+		magic5();
+		magic6();
+		magic7();
+		magic8();
+		magic9();
+		magic10();
+	}
+	$( document ).ready(function() {
+		$('#output').val("");
+		$('#output_scss').val("");
+	});
+
+	</script>
+	<body>
+		<section style='text-align:center;'>
+		<label><b style="font-size:120%;font-family:arial;">Ammount of rows [max 10]:</b> &nbsp;<label>
+		<input id="amountOfRows"/>
+		<label><br><br><br><br> Row 1 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowTwoClass"/>
+		<label><br><br> Row 2 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowThreeClass"/>
+		<label><br><br> Row 3 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowFourClass"/>
+		<label><br><br> Row 4 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowFiveClass"/>
+		<label><br><br> Row 5 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowSixClass"/>
+		<label><br><br> Row 6 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowSevenClass"/>
+		<label><br><br> Row 7 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowEightClass"/>
+		<label><br><br> Row 8 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowNineClass"/>
+		<label><br><br> Row 9 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowTenClass"/>
+		<label><br><br> Row 10 Class/Id Name: &nbsp; </label>
+		<input disabled id="rowElevenClass"/>
+		<br><br><br>
+		<button onclick="master_Btn()"> Create Code </button>
+		<br><br><textarea id="output" placeholder="output will be here..." style="text-align:center;height:500px;width:1000px;"></textarea>
+		<br><br><h1 style="font-family:arial;margin: 0 auto; padding: 0; font-size:250%;"> scss </h1><input id="mixnorNot" type="checkbox"/> Create Mixin?
+		<br><br><textarea id="output_scss" placeholder="output will be here..." style="text-align:center;height:1000px;width:1000px;"></textarea><br><br>
+		</section>
+	</body>
+</html>

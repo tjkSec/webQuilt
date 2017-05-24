@@ -1,0 +1,267 @@
+@mixin block( $color){ height: auto; width: auto; transition: transform 0.2s; fill:$color; .st0{fill:$color;} .st1{fill:none;stroke:$color;stroke-miterlimit:10;} &:hover{ transform: scale(1.1); } @media (max-width: 770px) { transform: scale(0.8); } }
+
+// NOTE:  blue is actually white because i am an idiot
+// NOTE:  white is acutally blue because i am an idiot
+
+
+
+
+.blue_row_one_0{ @include block(#FFFFFF)}
+
+.blue_row_one_1{ @include block(#fdfbfb) }
+
+.blue_row_one_2{ @include block(#fbfdfb) }
+
+.blue_row_one_3{ @include block(#fdfdff) }
+
+.blue_row_one_4{ @include block(#fdf9f9) }
+
+.blue_row_one_5{ @include block(#fdfbfb) }
+
+.blue_row_two_0{ @include block(#fcfcfc) }
+
+.blue_row_two_1{ @include block(#f7f7f7) }
+
+.blue_row_two_2{ @include block(#f3f3f3) }
+
+.blue_row_two_3{ @include block(#eeeeee) }
+
+.blue_row_two_4{ @include block(#eaeaea) }
+
+.blue_row_two_5{ @include block(#F5F5F5) }
+
+.blue_row_three_0{ @include block(#fffafa) }
+
+.blue_row_three_1{ @include block(#f0f0f0) }
+
+.blue_row_three_2{ @include block(#e3e3e3) }
+
+.blue_row_three_3{ @include block(#cecece) }
+
+.blue_row_three_4{ @include block(#bdbcbc) }
+
+.blue_row_three_5{ @include block(#ebebeb) }
+
+.blue_row_four_0{ @include block( #efefef) }
+
+.blue_row_four_1{ @include block(#f7f8f8) }
+
+.blue_row_four_2{ @include block(#fafafa) }
+
+.blue_row_four_3{ @include block(#fffff9) }
+
+.blue_row_four_4{ @include block(#fdfffc) }
+
+.blue_row_four_5{ @include block(#fcfcff) }
+
+.blue_row_five_0{ @include block(#fef9ff) }
+
+.blue_row_five_1{ @include block(#F8F8FF) }
+
+.blue_row_five_2{ @include block(#FEFEFA) }
+
+.blue_row_five_3{ @include block(#FFFAFA) }
+
+.blue_row_five_4{ @include block(#F8F8FF) }
+
+.blue_row_five_5{ @include block(#F7F6F0) }
+
+.blue_row_six_0{ @include block(#F2F2F2) }
+
+.blue_row_six_1{ @include block(#F7F8F4) }
+
+.blue_row_six_2{ @include block(#EDEFEE) }
+
+.blue_row_six_3{ @include block(#D7DAD8) }
+
+.blue_row_six_4{ @include block(#CBCECC) }
+
+.blue_row_six_5{ @include block(#EDEDE5) }
+
+.blue_row_seven_0{ @include block(#F2F0E6) }
+
+.blue_row_seven_1{ @include block(#EEECE5) }
+
+.blue_row_seven_2{ @include block(#EEEAE0) }
+
+.blue_row_seven_3{ @include block(#EBE9E0) }
+
+.blue_row_seven_4{ @include block(#ECE5D6) }
+
+.blue_row_seven_5{ @include block(#EFEAE0) }
+
+.blue_row_eight_0{ @include block(#E4DFD4) }
+
+.blue_row_eight_1{ @include block(#E4E0DA) }
+
+.blue_row_eight_2{ @include block(#ECE5D7) }
+
+.blue_row_eight_3{ @include block(#ECE5D6) }
+
+.blue_row_eight_4{ @include block(#D0C8C1) }
+
+.blue_row_eight_5{ @include block(#DBD5CE) }
+
+.blue_row_nine_0{ @include block(#ECE8D3) }
+
+.blue_row_nine_1{ @include block(#CFCABB) }
+
+.blue_row_nine_2{ @include block(#D0C8C1) }
+
+.blue_row_nine_3{ @include block(#F1F2F1) }
+
+.blue_row_nine_4{ @include block(#DDD5B7) }
+
+.blue_row_nine_5{ @include block(#CFCABB) }
+
+.blue_row_ten_0{ @include block(#EAE3DA) }
+
+.blue_row_ten_1{ @include block(#D7CEC1) }
+
+.blue_row_ten_2{ @include block(#ECE5D7) }
+
+.blue_row_ten_3{ @include block(#DBD5CE) }
+
+.blue_row_ten_4{ @include block(#E5DFC6) }
+
+.blue_row_ten_5{ @include block(#F3EBD8) }
+
+
+
+
+
+
+
+
+
+
+
+
+// GREYS
+
+
+
+
+
+
+
+
+.greys_row_one_0{ @include block(colorHere) }
+
+.greys_row_one_1{ @include block(colorHere) }
+
+.greys_row_one_2{ @include block(colorHere) }
+
+.greys_row_one_3{ @include block(colorHere) }
+
+.greys_row_one_4{ @include block(colorHere) }
+
+.greys_row_one_5{ @include block(colorHere) }
+
+.greys_row_two_0{ @include block(colorHere) }
+
+.greys_row_two_1{ @include block(colorHere) }
+
+.greys_row_two_2{ @include block(colorHere) }
+
+.greys_row_two_3{ @include block(colorHere) }
+
+.greys_row_two_4{ @include block(colorHere) }
+
+.greys_row_two_5{ @include block(colorHere) }
+
+.greys_row_three_0{ @include block(colorHere) }
+
+.greys_row_three_1{ @include block(colorHere) }
+
+.greys_row_three_2{ @include block(colorHere) }
+
+.greys_row_three_3{ @include block(colorHere) }
+
+.greys_row_three_4{ @include block(colorHere) }
+
+.greys_row_three_5{ @include block(colorHere) }
+
+.greys_row_four_0{ @include block(colorHere) }
+
+.greys_row_four_1{ @include block(colorHere) }
+
+.greys_row_four_2{ @include block(colorHere) }
+
+.greys_row_four_3{ @include block(colorHere) }
+
+.greys_row_four_4{ @include block(colorHere) }
+
+.greys_row_four_5{ @include block(colorHere) }
+
+.greys_row_five_0{ @include block(colorHere) }
+
+.greys_row_five_1{ @include block(colorHere) }
+
+.greys_row_five_2{ @include block(colorHere) }
+
+.greys_row_five_3{ @include block(colorHere) }
+
+.greys_row_five_4{ @include block(colorHere) }
+
+.greys_row_five_5{ @include block(colorHere) }
+
+.greys_row_six_0{ @include block(colorHere) }
+
+.greys_row_six_1{ @include block(colorHere) }
+
+.greys_row_six_2{ @include block(colorHere) }
+
+.greys_row_six_3{ @include block(colorHere) }
+
+.greys_row_six_4{ @include block(colorHere) }
+
+.greys_row_six_5{ @include block(colorHere) }
+
+.greys_row_seven_0{ @include block(colorHere) }
+
+.greys_row_seven_1{ @include block(colorHere) }
+
+.greys_row_seven_2{ @include block(colorHere) }
+
+.greys_row_seven_3{ @include block(colorHere) }
+
+.greys_row_seven_4{ @include block(colorHere) }
+
+.greys_row_seven_5{ @include block(colorHere) }
+
+.greys_row_eight_0{ @include block(colorHere) }
+
+.greys_row_eight_1{ @include block(colorHere) }
+
+.greys_row_eight_2{ @include block(colorHere) }
+
+.greys_row_eight_3{ @include block(colorHere) }
+
+.greys_row_eight_4{ @include block(colorHere) }
+
+.greys_row_eight_5{ @include block(colorHere) }
+
+.greys_row_nine_0{ @include block(colorHere) }
+
+.greys_row_nine_1{ @include block(colorHere) }
+
+.greys_row_nine_2{ @include block(colorHere) }
+
+.greys_row_nine_3{ @include block(colorHere) }
+
+.greys_row_nine_4{ @include block(colorHere) }
+
+.greys_row_nine_5{ @include block(colorHere) }
+
+.greys_row_ten_0{ @include block(colorHere) }
+
+.greys_row_ten_1{ @include block(colorHere) }
+
+.greys_row_ten_2{ @include block(colorHere) }
+
+.greys_row_ten_3{ @include block(colorHere) }
+
+.greys_row_ten_4{ @include block(colorHere) }
+
+.greys_row_ten_5{ @include block(colorHere) }

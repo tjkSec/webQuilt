@@ -4,7 +4,7 @@ function mid() {
 }
 
 function max() {
-	$('.color_set-1').animate({width:'100vw'});
+	$('.color_set-1').animate({width:'90vw'});
 }
 
 function half() {
