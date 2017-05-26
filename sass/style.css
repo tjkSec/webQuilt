@@ -111,7 +111,7 @@
 .cover_1 {
   background-color: #1F1F1F;
   width: 50vw;
-  height: 15000px;
+  height: 25000px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -120,7 +120,7 @@
 .cover_2 {
   background-color: #1F1F1F;
   width: 50vw;
-  height: 15000px;
+  height: 25000px;
   position: absolute;
   left: 50vw;
   top: 0px;
@@ -722,7 +722,7 @@
   position: absolute; }
 
 html {
-  height: 9000px;
+  height: 25000px;
   background-color: #242831; }
 
 /*# sourceMappingURL=style.css.map */
