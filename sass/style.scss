@@ -176,7 +176,7 @@ $desktops: 1051px;
 @mixin cover($cover_color, $left, $top) {
 	background-color: $cover_color;
 	width:50vw;
-	height:45000px;
+	height:50000px;
 	position: absolute;
 	left:$left;
 	top:$top;
@@ -525,6 +525,12 @@ $desktops: 1051px;
 	transition: background-color 0.5s, top 0.2s;
 	width:300px;
 	height:50px;
+	@media (max-width: 900px) {
+		left:80vw;
+	}
+	@media (max-width: 500px) {
+		left:60vw;
+	}
 	background-color:rgba(241,241,241,0.1);
 	left:90vw;
 	top:20px;
@@ -549,6 +555,6 @@ $desktops: 1051px;
 }
 
 html{
-	height:45000px;
+	height:50000px;
 	background-color: #242831;
 }
