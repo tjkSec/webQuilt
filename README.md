@@ -2,7 +2,7 @@
 
 ```diff
 - Note:
-- I am currently aware of lag issue caused by all the palettes being on one page.
+- I am aware of lag issue caused by all the palettes being on one page.
 - I will fix this by the time I have finished.
 ```
 
