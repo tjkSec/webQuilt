@@ -85,6 +85,20 @@ $desktops: 1051px;
 	color: $black;
 }
 
+.pt_sans_giant {
+	font-size: 1200%;
+	font-family: 'Baloo', cursive;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.pt_sans_giant-mb {
+	font-size: 500%;
+	font-family: 'Baloo', cursive;
+	color: #FFFFFF;
+	text-align: center;
+}
+
 .pt_sans_200 {
 	font: 200% $pt_sans;
 	color: $black;
@@ -517,6 +531,22 @@ $desktops: 1051px;
   transform: translateY(-50%);
   transform: translateX(-50%);
 }
+
+.givcrsr{
+
+}
+
+.copied{
+	width:100vw;
+	height:50000px;
+	position: absolute;
+	background-color:#7655DB;
+	left:-100vw;
+	top:0px;
+	z-index:9999;
+	transition: left 0.75s, opacity 0.5s;
+}
+
 
 // top 90
 .toTheTop{

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<header>
+		<h1 style="text-align:center;font-family:arial;"> [HEX GEN] </h1>
+	</header>
+	<script>
+	function generate1() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "one";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+	function generate2() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "two";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+	function generate3() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "three";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+	function generate4() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "four";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+	function generate5() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "five";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+	function generate6() {
+		var set = $('#color-set-header').val();
+		var output = $('#output')
+		var number = "six";
+
+		for(i=0; i<6; i++) {
+		code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+			$('.copied').css({'left':'0vw'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+			var scrollY = window.pageYOffset + 'px'
+			$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+			$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+			var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+			new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			    text: function(trigger) {
+			        return hexcode.toUpperCase();
+			    }
+			});
+			setTimeout(function () {
+				$('.copied').animate({'opacity':'0'}, 1000);
+			}, 200);
+			setTimeout(function () {
+				$('.copied').css({'left':'-200vw'});
+			}, 1800);
+			setTimeout(function () {
+				$('.copied').css({'opacity':'1'});
+				$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+			}, 2500);
+		});`
+		output.val(output.val() + code);
+		}
+	}
+
+function generate7() {
+	var set = $('#color-set-header').val();
+	var output = $('#output')
+	var number = "seven";
+
+	for(i=0; i<6; i++) {
+	code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+		$('.copied').css({'left':'0vw'});
+		$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+		var scrollY = window.pageYOffset + 'px'
+		$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+		$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+		var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+		new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			text: function(trigger) {
+				return hexcode.toUpperCase();
+			}
+		});
+		setTimeout(function () {
+			$('.copied').animate({'opacity':'0'}, 1000);
+		}, 200);
+		setTimeout(function () {
+			$('.copied').css({'left':'-200vw'});
+		}, 1800);
+		setTimeout(function () {
+			$('.copied').css({'opacity':'1'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+		}, 2500);
+	});`
+	output.val(output.val() + code);
+	}
+}
+function generate8() {
+	var set = $('#color-set-header').val();
+	var output = $('#output')
+	var number = "eight";
+
+	for(i=0; i<6; i++) {
+	code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+		$('.copied').css({'left':'0vw'});
+		$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+		var scrollY = window.pageYOffset + 'px'
+		$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+		$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+		var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+		new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			text: function(trigger) {
+				return hexcode.toUpperCase();
+			}
+		});
+		setTimeout(function () {
+			$('.copied').animate({'opacity':'0'}, 1000);
+		}, 200);
+		setTimeout(function () {
+			$('.copied').css({'left':'-200vw'});
+		}, 1800);
+		setTimeout(function () {
+			$('.copied').css({'opacity':'1'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+		}, 2500);
+	});`
+	output.val(output.val() + code);
+	}
+}
+
+function generate9() {
+	var set = $('#color-set-header').val();
+	var output = $('#output')
+	var number = "nine";
+
+	for(i=0; i<6; i++) {
+	code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+		$('.copied').css({'left':'0vw'});
+		$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+		var scrollY = window.pageYOffset + 'px'
+		$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+		$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+		var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+		new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			text: function(trigger) {
+				return hexcode.toUpperCase();
+			}
+		});
+		setTimeout(function () {
+			$('.copied').animate({'opacity':'0'}, 1000);
+		}, 200);
+		setTimeout(function () {
+			$('.copied').css({'left':'-200vw'});
+		}, 1800);
+		setTimeout(function () {
+			$('.copied').css({'opacity':'1'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+		}, 2500);
+	});`
+	output.val(output.val() + code);
+	}
+}
+
+function generate10() {
+	var set = $('#color-set-header').val();
+	var output = $('#output')
+	var number = "ten";
+
+	for(i=0; i<6; i++) {
+	code = `$('#` + set + '_' + 'row' + '_' + number + '_' + i + `').click(function() {
+		$('.copied').css({'left':'0vw'});
+		$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'0.1'});
+		var scrollY = window.pageYOffset + 'px'
+		$('.pt_sans_giant').css({'transform':'translateY(' + scrollY + ')'})
+		$('.pt_sans_giant-mb').css({'transform':'translateY(' + scrollY + ')'})
+		var hexcode = rgb2hex($('.`+ set + '_' + 'row' + '_' + number + '_' + i +`').css("fill"));
+		new Clipboard('.`+ set + '_' + 'row' + '_' + number + '_' + i +`', {
+			text: function(trigger) {
+				return hexcode.toUpperCase();
+			}
+		});
+		setTimeout(function () {
+			$('.copied').animate({'opacity':'0'}, 1000);
+		}, 200);
+		setTimeout(function () {
+			$('.copied').css({'left':'-200vw'});
+		}, 1800);
+		setTimeout(function () {
+			$('.copied').css({'opacity':'1'});
+			$('#`+ set + '_' + 'row' + '_' + number + '_' + i +`').animate({'opacity':'1'});
+		}, 2500);
+	});`
+	output.val(output.val() + code);
+	}
+}
+	$( document ).ready(function() {
+		var set = $('#color-set-header');
+		var output = $('#output')
+		output.val("");
+		set.val("");
+	});
+	function germenate() {
+		generate1();
+		generate2();
+		generate3();
+		generate4();
+		generate5();
+		generate6();
+		generate7();
+		generate8();
+		generate9();
+		generate10();
+	}
+	</script>
+	<body>
+	<section style="text-align:center">
+		<input id="color-set-header" placeholder="Color set header [eg, reds, greens]" style="width:400px;text-align:center;border:1px solid red;padding:20px;"><br><br>
+		<button onclick="germenate()">Generate</button><br><br>
+		<textarea placeholder="code will output here..." id="output" style="width:750px;height:1000px;text-align:center;"></textarea>
+	</section>
+	</body>
+</html>

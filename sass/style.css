@@ -36,6 +36,18 @@
   font: 300% "Ubuntu", sans-serif;
   color: #F1F1F1; }
 
+.pt_sans_giant {
+  font-size: 1200%;
+  font-family: 'Baloo', cursive;
+  color: #FFFFFF;
+  text-align: center; }
+
+.pt_sans_giant-mb {
+  font-size: 500%;
+  font-family: 'Baloo', cursive;
+  color: #FFFFFF;
+  text-align: center; }
+
 .pt_sans_200 {
   font: 200% "Ubuntu", sans-serif;
   color: #F1F1F1; }
@@ -692,6 +704,16 @@
   left: 25%;
   transform: translateY(-50%);
   transform: translateX(-50%); }
+
+.copied {
+  width: 100vw;
+  height: 50000px;
+  position: absolute;
+  background-color: #7655DB;
+  left: -100vw;
+  top: 0px;
+  z-index: 9999;
+  transition: left 0.75s, opacity 0.5s; }
 
 .toTheTop {
   -webkit-border-radius: 20px;

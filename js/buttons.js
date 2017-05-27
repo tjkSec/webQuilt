@@ -15,8 +15,10 @@ function half() {
 	res = 3;
 }
 
-
-setTimeout(function () {
+$( document ).ready(function() {
+	$('.givcrsr').mouseover(function() {
+		$('.givcrsr').css( 'cursor' , 'pointer')
+	});
 	$('.palette_1').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#yellows_headings").offset().top - 300
@@ -27,6 +29,12 @@ setTimeout(function () {
 		    scrollTop: $("#yellows_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_1_xs').click(function() {
+		$('html, body').animate({
+		    scrollTop: $("#yellows_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_2').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#greens_headings").offset().top - 300
@@ -37,6 +45,12 @@ setTimeout(function () {
 		    scrollTop: $("#greens_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_2_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#greens_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_3').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#lightturq_headings").offset().top - 300
@@ -47,6 +61,12 @@ setTimeout(function () {
 		    scrollTop: $("#lightturq_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_3_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#lightturq_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_4').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#darkturq_headings").offset().top - 300
@@ -57,6 +77,12 @@ setTimeout(function () {
 		    scrollTop: $("#darkturq_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_4_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#darkturq_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_5').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#bluegreen_headings").offset().top - 300
@@ -67,6 +93,12 @@ setTimeout(function () {
 		    scrollTop: $("#bluegreen_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_5_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#bluegreen_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_6').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#skyblue_headings").offset().top - 300
@@ -77,6 +109,12 @@ setTimeout(function () {
 		    scrollTop: $("#skyblue_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_6_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#skyblue_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_7').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#cyan_headings").offset().top - 300
@@ -87,6 +125,12 @@ setTimeout(function () {
 		    scrollTop: $("#cyan_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_7_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#cyan_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_8').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#white_headings").offset().top - 300
@@ -97,6 +141,12 @@ setTimeout(function () {
 		    scrollTop: $("#white_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_8_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#white_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_9').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#purples_headings").offset().top - 300
@@ -107,6 +157,12 @@ setTimeout(function () {
 		    scrollTop: $("#purples_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_9_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#purples_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_10').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#pinks_headings").offset().top - 300
@@ -117,6 +173,12 @@ setTimeout(function () {
 		    scrollTop: $("#pinks_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_10_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#pinks_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_11').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#red_headings").offset().top - 300
@@ -127,6 +189,12 @@ setTimeout(function () {
 		    scrollTop: $("#red_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_11_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#red_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_12').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#amber_headings").offset().top - 300
@@ -137,6 +205,12 @@ setTimeout(function () {
 		    scrollTop: $("#amber_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_12_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#amber_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_13').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#orange_headings").offset().top - 300
@@ -147,6 +221,12 @@ setTimeout(function () {
 		    scrollTop: $("#orange_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_13_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#orange_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_14').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#brown_headings").offset().top - 300
@@ -157,6 +237,12 @@ setTimeout(function () {
 		    scrollTop: $("#brown_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_14_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#brown_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_15').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#blacks_headings").offset().top - 300
@@ -167,6 +253,12 @@ setTimeout(function () {
 		    scrollTop: $("#blacks_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_15_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#blacks_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_16').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#darkgreys_headings").offset().top - 300
@@ -177,6 +269,12 @@ setTimeout(function () {
 		    scrollTop: $("#darkgreys_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_16_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#darkgreys_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_17').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#beige_headings").offset().top - 300
@@ -187,6 +285,12 @@ setTimeout(function () {
 		    scrollTop: $("#beige_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_17_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#beige_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_18').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#greys_headings").offset().top - 300
@@ -197,6 +301,12 @@ setTimeout(function () {
 		    scrollTop: $("#greys_headings").offset().top - 300
 		}, 2000);
 	});
+	$('.palette_18_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#greys_headings").offset().top - 300
+		}, 2000);
+	});
+
 	$('.palette_19').click(function() {
 		$('html, body').animate({
 		    scrollTop: $("#blues_headings").offset().top - 300
@@ -207,7 +317,13 @@ setTimeout(function () {
 		    scrollTop: $("#blues_headings").offset().top - 300
 		}, 2000);
 	});
-}, 250);
+	$('.palette_19_xs').click(function() {
+		$('html, body').animate({
+			scrollTop: $("#blues_headings").offset().top - 300
+		}, 2000);
+	});
+
+});
 
 
 // $('.color_set-1').css({width:'50vh'});

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.1/clipboard.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,6 +11,7 @@
 		<link rel="stylesheet" href="./sass/color-codes-main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/buttons.js"></script>
+		<script src="js/copy-code.js"></script>
 		<script
 			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
 			  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
@@ -23,6 +26,8 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.js"></script>
 	</head>
 	<body style="overflow-x:hidden;">
+		<div class="copied hidden-xs"><h1 class="pt_sans_giant">Copied</h1></div>
+		<div class="copied hidden-sm hidden-md hidden-lg"><h1 class="pt_sans_giant-mb">Copied</h1></div>
 		 <nav class="navbar-oasis navbar-fixed-top">
 		<div class="toTheTop" onclick="topShop()" id="top" onmouseover="$('#top').css( 'cursor' , 'pointer')"><span class="pt_sans_125l center-v-strong"><i class="material-icons">keyboard_arrow_up</i></span></div>
 		  <div class="container-fluid">
@@ -87,45 +92,45 @@
 				</div>
 			</div>
 			<!-- Palettes for desktop and higher res devices -->
-		   		 <div id="test" class="palette_1 hidden-xs hidden-sm"></div>
-				 <div class="palette_2 hidden-xs hidden-sm"></div>
-				 <div class="palette_3 hidden-xs hidden-sm"></div>
-				 <div class="palette_4 hidden-xs hidden-sm"></div>
-				 <div class="palette_5 hidden-xs hidden-sm"></div>
-				 <div class="palette_6 hidden-xs hidden-sm"></div>
-				 <div class="palette_7 hidden-xs hidden-sm"></div>
-				 <div class="palette_8 hidden-xs hidden-sm"></div>
-				 <div class="palette_9 hidden-xs hidden-sm"></div>
-				 <div class="palette_10 hidden-xs hidden-sm"></div>
-				 <div class="palette_11 hidden-xs hidden-sm"></div>
-				 <div class="palette_12 hidden-xs hidden-sm"></div>
-				 <div class="palette_13 hidden-xs hidden-sm"></div>
-				 <div class="palette_14 hidden-xs hidden-sm"></div>
-				 <div class="palette_15 hidden-xs hidden-sm"></div>
-				 <div class="palette_16 hidden-xs hidden-sm"></div>
-				 <div class="palette_17 hidden-xs hidden-sm"></div>
-				 <div class="palette_18 hidden-xs hidden-sm"></div>
-				 <div class="palette_19 hidden-xs hidden-sm"></div>
+		   		 <div id="test" class="givcrsr palette_1 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_2 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_3 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_4 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_5 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_6 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_7 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_8 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_9 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_10 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_11 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_12 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_13 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_14 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_15 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_16 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_17 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_18 hidden-xs hidden-sm"></div>
+				 <div class="givcrsr palette_19 hidden-xs hidden-sm"></div>
 				 <!-- Palettes for mobile devices -->
-		   		 <div class="palette_1_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_2_mb hidden-xs hidden-md hidden-lg" ></div>
-				 <div class="palette_3_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_4_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_5_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_6_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_7_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_8_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_9_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_10_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_11_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_12_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_13_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_14_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_15_mb hidden-xs hidden-md hidden-lg"></div>
-				 <div class="palette_16_mb hidden-xs hidden-md hidden-lg"></div>
- 				 <div class="palette_17_mb hidden-xs hidden-md hidden-lg"></div>
- 				 <div class="palette_18_mb hidden-xs hidden-md hidden-lg"></div>
- 				 <div class="palette_19_mb hidden-xs hidden-md hidden-lg"></div>
+		   		 <div class="givcrsr palette_1_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_2_mb hidden-xs hidden-md hidden-lg" ></div>
+				 <div class="givcrsr palette_3_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_4_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_5_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_6_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_7_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_8_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_9_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_10_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_11_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_12_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_13_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_14_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_15_mb hidden-xs hidden-md hidden-lg"></div>
+				 <div class="givcrsr palette_16_mb hidden-xs hidden-md hidden-lg"></div>
+ 				 <div class="givcrsr palette_17_mb hidden-xs hidden-md hidden-lg"></div>
+ 				 <div class="givcrsr palette_18_mb hidden-xs hidden-md hidden-lg"></div>
+ 				 <div class="givcrsr palette_19_mb hidden-xs hidden-md hidden-lg"></div>
 				 <!-- lists of colors for extra small mobile devices -->
 				 <table class="table hidden-sm hidden-lg hidden-md pt_sans_100l hard-push-170 set_tight center-strong" style="background-color:#242831;width:50%;">
 				    <thead>
@@ -137,37 +142,37 @@
 				    </thead>
 				    <tbody>
 				      <tr>
-				        <td>Yellows</td>
-				        <td>Greens</td>
-				        <td>Light Turq.</td>
+				        <td class="palette_1_xs" onmouseover="$('.palette_1_xs').css( 'cursor' , 'pointer')">Yellows</td>
+				        <td class="palette_2_xs" onmouseover="$('.palette_2_xs').css( 'cursor' , 'pointer')">Greens</td>
+				        <td class="palette_3_xs" onmouseover="$('.palette_3_xs').css( 'cursor' , 'pointer')">Light Turq.</td>
 				      </tr>
 				      <tr>
-				        <td>Dark Turq.</td>-
-				        <td>Blue-Greens</td>
-				        <td>Sky-Blues</td>
+				        <td class="palette_4_xs" onmouseover="$('.palette_4_xs').css( 'cursor' , 'pointer')">Dark Turq.</td>-
+				        <td class="palette_5_xs" onmouseover="$('.palette_5_xs').css( 'cursor' , 'pointer')">Blue-Greens</td>
+				        <td class="palette_6_xs" onmouseover="$('.palette_6_xs').css( 'cursor' , 'pointer')">Sky-Blues</td>
 				      </tr>
 				      <tr>
-				        <td>Cyans</td>
-				        <td>Blues</td>
-				        <td>Purples</td>
+				        <td class="palette_7_xs" onmouseover="$('.palette_7_xs').css( 'cursor' , 'pointer')">Cyans</td>
+				        <td class="palette_8_xs" onmouseover="$('.palette_8_xs').css( 'cursor' , 'pointer')">Blues</td>
+				        <td class="palette_9_xs" onmouseover="$('.palette_9_xs').css( 'cursor' , 'pointer')">Purples</td>
 				      </tr>
   				      <tr>
-  				        <td>Pinks</td>
-  				        <td>Reds</td>
-						<td>Ambers</td>
+  				        <td class="palette_10_xs" onmouseover="$('.palette_10_xs').css( 'cursor' , 'pointer')">Pinks</td>
+  				        <td class="palette_11_xs" onmouseover="$('.palette_11_xs').css( 'cursor' , 'pointer')">Reds</td>
+						<td class="palette_12_xs" onmouseover="$('.palette_12_xs').css( 'cursor' , 'pointer')">Ambers</td>
   				      </tr>
 					  <tr>
-  				        <td>Oranges</td>
-  				        <td>Browns</td>
-						<td>Blacks</td>
+  				        <td class="palette_13_xs" onmouseover="$('.palette_13_xs').css( 'cursor' , 'pointer')">Oranges</td>
+  				        <td class="palette_14_xs" onmouseover="$('.palette_14_xs').css( 'cursor' , 'pointer')">Browns</td>
+						<td class="palette_15_xs" onmouseover="$('.palette_15_xs').css( 'cursor' , 'pointer')">Blacks</td>
   				      </tr>
 					  <tr>
-  				        <td>Dark-Greys</td>
-  				        <td>Beiges</td>
-						<td>Light-Greys</td>
+  				        <td class="palette_16_xs" onmouseover="$('.palette_16_xs').css( 'cursor' , 'pointer')">Dark-Greys</td>
+  				        <td class="palette_17_xs" onmouseover="$('.palette_17_xs').css( 'cursor' , 'pointer')">Beiges</td>
+						<td class="palette_18_xs" onmouseover="$('.palette_18_xs').css( 'cursor' , 'pointer')">Light-Greys</td>
   				      </tr>
 					  <tr>
-  				        <td>Whites</td>
+  				        <td class="palette_19_xs" onmouseover="$('.palette_19_xs').css( 'cursor' , 'pointer')">Whites</td>
   				        <td> </td>
 						<td> </td>
   				      </tr>
